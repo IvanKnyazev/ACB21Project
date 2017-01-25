@@ -22,6 +22,8 @@ public class _4_2_ThreeFigures {
 
             if ((figure1 > figure2) && (figure1 > figure3)) {
                 System.out.println("\nMax figure: " + figure1);
+            } else if ((figure1 >= figure2) && (figure1 > figure3)) {
+                System.out.println("\nMax figure: " + figure1);
             } else if ((figure2 > figure1) && (figure2 > figure3)) {
                 System.out.println("\nMax figure: " + figure2);
             } else {
@@ -30,7 +32,11 @@ public class _4_2_ThreeFigures {
 
             if ((figure1 < figure2) && (figure1 < figure3)) {
                 System.out.println("Min figure: " + figure1 + "\n");
+            } else if ((figure1 < figure2) && (figure1 <= figure3)) {
+                System.out.println("Min figure: " + figure1 + "\n");
             } else if ((figure2 < figure1) && (figure2 < figure3)) {
+                System.out.println("Min figure: " + figure2 + "\n");
+            } else if ((figure2 <= figure1) && (figure2 < figure3)) {
                 System.out.println("Min figure: " + figure2 + "\n");
             } else {
                 System.out.println("Min figure: " + figure3 + "\n");
