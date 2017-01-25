@@ -35,6 +35,6 @@ public class _4_8_CompareLastFigure {
                 System.out.println(!compare2B + "\n");
             }
         }
-        System.out.println("УСЁ ШЕФ!!!");
+        System.out.println("УСЁ ШЕФ!!!!!");
     }
 }
